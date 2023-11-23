@@ -27,7 +27,7 @@ namespace calc_deleget_event
             Oprasi op = new Oprasi();
             op.proses += addHasil;
             op.StartPosition = FormStartPosition.Manual;
-            op.Location = new Point(this.Right,100); 
+            op.Location = new Point(this.Right,100);  
             op.Show(this);
         }
 
